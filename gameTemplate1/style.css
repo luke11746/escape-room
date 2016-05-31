@@ -44,3 +44,145 @@ body {
 	background-position: bottom center;
 
 }
+
+#start {
+    background-image: url("img/startfloor.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
+}
+
+
+
+#leftwall{
+    background-image: url("img/leftwall.jpg");
+    position: absolute;
+       height: 1224px;
+    width: 1632px;
+}
+
+#leftwallleft{
+    background-image: url("img/leftwallleft.jpg");
+}
+
+#leftwallright{
+    background-image: url("img/leftwallright.jpg");
+}
+
+#leftwallmiddle{
+    background-image: url("img/leftwallmiddle.jpg");
+}
+
+
+
+
+#rightwall{
+    background-image: url("img/rightwall.jpg");
+}
+
+#rightwallleft{
+    background-image: url("img/rightwallleft.jpg");
+}
+
+#rightwallright{
+    background-image: url("img/rightwallright.jpg");
+}
+
+#rightwallmiddle{
+    background-image: url("img/rightwallmiddle.jpg");
+}
+
+
+#forwardwall{
+    background-image: url("img/middlewall.jpg");
+}
+
+#forwardwallleft{
+    background-image: url("img/middlewallleft.jpg");
+}
+
+#forwardwallright{
+    background-image: url("img/middlewallright.jpg");
+}
+
+#forwardwallmiddle{
+    background-image: url("img/middlewallmiddle.jpg");
+}
+
+
+#startleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+    }
+    #startright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+
+    }
+#startforward{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+}
+#startzoom{
+position: absolute;
+height: 50px;
+width: 75px;
+top:650px;
+left:800px;
+}
+
+
+
+
+
+#leftleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+    }
+    #leftright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+
+    }
+#leftzoommiddle{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;
+}
+#leftback{
+position: absolute;
+height: 50px;
+width: 75px;
+top:1000px;
+left:800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
