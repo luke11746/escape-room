@@ -19,6 +19,16 @@ $("#leftwallmiddle").hide();
    $("#start").show();
 
 
+  $("#startzoom").click(function(){
+   $("#clue1").show();
+      $("#start").hide();
+});
+
+    $("#clue1back").click(function(){
+   $("#start").show();
+      $("#clue1").hide();
+});
+
   $("#startleft").click(function(){
    $("#leftwall").show();
       $("#start").hide();
@@ -83,5 +93,31 @@ $("#rightback").click(function(){
 $("#rightzoommiddle").click(function(){
    $("#rightwall").hide();
 });
+
+
+
+
+$("#forwardleft").click(function(){
+   $("#forwardmiddle").show();
+   $("#rightwall").hide();
+});
+
+
+$("#forwardright").click(function(){
+   $("#forwardwallright").show();
+   $("#forwardwall").hide();
+});
+
+
+$("#forwardback").click(function(){
+   $("#start").show();
+   $("#forwardwallrdwall").hide();
+});
+
+$("#forwardmiddlezoom").click(function(){
+   $("#forwardwall").hide();
+});
+
+
 
 });//close everything
