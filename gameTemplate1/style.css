@@ -141,6 +141,16 @@ width: 75px;
 top:500px;
     }
 
+
+#leftleftright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+    }
+
+
     #leftright{
 position: absolute;
 height: 50px;
@@ -148,6 +158,14 @@ width: 75px;
 top:500px;
 left:1557px;
     }
+
+    #leftrightleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+    }
+
 
 #leftzoommiddle{
 position: absolute;
@@ -166,12 +184,25 @@ left:800px;
 }
 
 
+
+
+
+
 #forwardleft{
 position: absolute;
 height: 50px;
 width: 75px;
 top:500px;
 }
+
+ #forwardleftright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+}
+
 
     #forwardright{
 position: absolute;
@@ -180,6 +211,15 @@ width: 75px;
 top:500px;
 left:1557px;
     }
+
+     #forwardrightleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+    }
+
+
 
     #forwardzoommiddle{
 position: absolute;
@@ -196,6 +236,68 @@ width: 75px;
 top:1000px;
 left:800px;
 }
+
+
+
+
+#rightleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+}
+
+   #rightleftzoom{
+        position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;
+    }
+
+#rightleftright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+}
+   
+
+   
+    #rightright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+    }
+
+    #rightrightzoom{
+        position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;
+    }
+
+        #rightrightleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+    }
+
+
+    #rightback{
+position: absolute;
+height: 50px;
+width: 75px;
+top:1000px;
+left:800px;
+}
+
+
 
 
 #clue1{
@@ -222,12 +324,31 @@ top: 650px;;
     width: 1632px;
 }
 
+#clue2back{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;;
+
+}
+
 #clue3{
     background-image: url("img/clue3.jpg");
     position: absolute;
     height: 1224px;
     width: 1632px;
 }
+
+#clue3back{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;;
+
+}
+
 
 #clue4{
     background-image: url("img/clue4.jpg");
@@ -236,11 +357,27 @@ top: 650px;;
     width: 1632px;
 }
 
+#clue4back{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;;
+    
+}
+
 
 #goback{
     position: absolute;
     top: 500px;
     left: 1700px;
+}
+
+#endrestart{
+height:100px;
+width: 300px;
+position: absolute;
+background-color: #0066ff;
 }
 
 

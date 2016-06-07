@@ -22,12 +22,15 @@ $("#leftwallmiddle").hide();
      $("#clue2").hide();
       $("#clue3").hide();
        $("#clue4").hide();
+         $("#Ending").hide();
+          $("#goback").hide();
     $("#startpage").show();
 
 
   $("#startbutton").click(function(){
    $("#start").show();
       $("#startpage").hide();
+                $("#goback").show();
 });
 
    $("#restart").click(function(){
@@ -120,8 +123,14 @@ $("#leftback").click(function(){
 
 $("#leftzoommiddle").click(function(){
    $("#leftwall").hide();
+     $("#clue4").show();
+});
+
+$("#clue4back").click(function(){
+   $("#leftwall").show();
      $("#clue4").hide();
 });
+
 
 
 
@@ -130,11 +139,43 @@ $("#rightright").click(function(){
    $("#rightwall").hide();
 });
 
+$("#rightrightzoom").click(function(){
+   $("#clue3").show();
+   $("#rightwallright").hide();
+});
+
+$("#clue3back").click(function(){
+   $("#rightwallright").show();
+     $("#clue3").hide();
+});
+
+
+$("#rightrightleft").click(function(){
+   $("#rightwallright").hide();
+   $("#rightwall").show();
+});
+
 
 $("#rightleft").click(function(){
-   $("#rightwallright").show();
+   $("#rightwallleft").show();
    $("#rightwall").hide();
 });
+
+$("#rightleftzoom").click(function(){
+   $("#clue2").show();
+   $("#rightwallleft").hide();
+});
+
+$("#clue2back").click(function(){
+   $("#rightwallleft").show();
+     $("#clue2").hide();
+});
+
+$("#rightleftright").click(function(){
+   $("#rightwallleft").hide();
+   $("#rightwall").show();
+});
+
 
 
 $("#rightback").click(function(){
@@ -142,16 +183,18 @@ $("#rightback").click(function(){
    $("#rightwall").hide();
 });
 
-$("#rightzoommiddle").click(function(){
-   $("#rightwall").hide();
-});
 
 
 
 
 $("#forwardleft").click(function(){
+   $("#forwardmiddle").hide();
+   $("#forwardwallleft").show();
+});
+
+$("#forwardleftright").click(function(){
    $("#forwardmiddle").show();
-   $("#rightwall").hide();
+   $("#forwardwallleft").hide();
 });
 
 
@@ -160,14 +203,27 @@ $("#forwardright").click(function(){
    $("#forwardwall").hide();
 });
 
+$("#forwardrightleft").click(function(){
+   $("#forwardwallright").hide();
+   $("#forwardwall").show();
+});
+
+
 
 $("#forwardback").click(function(){
    $("#start").show();
-   $("#forwardwallrdwall").hide();
+   $("#forwardwall").hide();
 });
 
-$("#forwardmiddlezoom").click(function(){
+$("#forwardzoommiddle").click(function(){
    $("#forwardwall").hide();
+    $("#Ending").show();
+});
+
+
+$("#endrestart").click(function(){
+   $("#Ending").hide();
+    $("#start").show();
 });
 
 
