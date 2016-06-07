@@ -1,49 +1,8 @@
-body {
-
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
-    background-size: cover;
-    background-position: center center;
-	font-family: monospace;
-
-}
-
-/*Stuff below governs the start screen*/
-
-.titleContent {
-	margin: 10% auto;
-    text-align: center;
-}
-
-.splashTitle {
-	color: #fff;
-    font-size: 8em;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
-}
-
-.button {
-	border: 5px solid #383838;
-    color: #383838;
-    padding: 20px 50px;
-    font-size: 5em;
-    text-decoration: none;
-    background-color: #abc;
-    box-shadow: 15px 15px 80px #555;
-}
-  a.button:hover {
-    background-color: #383838;
-    color: #abc;
-  }
 
 
 
-/*Stuff below governs the Explore screen*/
 
-#exploreBody {
-	background-image: url("img/exploreHome1.jpg");
-	background-position: bottom center;
 
-}
 
 #start {
     background-image: url("img/startfloor.jpg");
@@ -63,14 +22,23 @@ body {
 
 #leftwallleft{
     background-image: url("img/leftwallleft.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #leftwallright{
     background-image: url("img/leftwallright.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #leftwallmiddle{
     background-image: url("img/leftwallmiddle.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 
@@ -78,35 +46,59 @@ body {
 
 #rightwall{
     background-image: url("img/rightwall.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #rightwallleft{
     background-image: url("img/rightwallleft.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #rightwallright{
     background-image: url("img/rightwallright.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #rightwallmiddle{
     background-image: url("img/rightwallmiddle.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 
 #forwardwall{
     background-image: url("img/middlewall.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #forwardwallleft{
     background-image: url("img/middlewallleft.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #forwardwallright{
     background-image: url("img/middlewallright.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 #forwardwallmiddle{
     background-image: url("img/middlewallmiddle.jpg");
+        position: absolute;
+    height: 1224px;
+    width: 1632px;
 }
 
 
@@ -148,14 +140,15 @@ height: 50px;
 width: 75px;
 top:500px;
     }
+
     #leftright{
 position: absolute;
 height: 50px;
 width: 75px;
 top:500px;
 left:1557px;
-
     }
+
 #leftzoommiddle{
 position: absolute;
 height: 50px;
@@ -163,6 +156,7 @@ width: 75px;
 left:800px;
 top: 650px;
 }
+
 #leftback{
 position: absolute;
 height: 50px;
@@ -172,14 +166,82 @@ left:800px;
 }
 
 
+#forwardleft{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+}
+
+    #forwardright{
+position: absolute;
+height: 50px;
+width: 75px;
+top:500px;
+left:1557px;
+    }
+
+    #forwardzoommiddle{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;
+}
+
+#forwardback{
+position: absolute;
+height: 50px;
+width: 75px;
+top:1000px;
+left:800px;
+}
 
 
+#clue1{
+    background-image: url("img/clue1.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
+    transform: rotate(90deg);
+}
+
+#clue1back{
+position: absolute;
+height: 50px;
+width: 75px;
+left:800px;
+top: 650px;;
+    transform: rotate(270deg);
+}
+
+#clue2{
+    background-image: url("img/clue2.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
+}
+
+#clue3{
+    background-image: url("img/clue3.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
+}
+
+#clue4{
+    background-image: url("img/clue4.jpg");
+    position: absolute;
+    height: 1224px;
+    width: 1632px;
+}
 
 
-
-
-
-
+#goback{
+    position: absolute;
+    top: 500px;
+    left: 1700px;
+}
 
 
 

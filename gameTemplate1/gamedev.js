@@ -11,12 +11,53 @@ $("#leftwallmiddle").hide();
  $("#rightwallright").hide();
   $("#rightwallmiddle").hide();
 
- $("#forwardwall").hide();
+ $("#forwardwall").hide;
  $("#forwardwallleft").hide();
   $("#forwardwallright").hide();
  $("#forwardwallmiddle").hide();
+
   $("#endpage").hide();
+   $("#start").hide();
+    $("#clue1").hide();
+     $("#clue2").hide();
+      $("#clue3").hide();
+       $("#clue4").hide();
+    $("#startpage").show();
+
+
+  $("#startbutton").click(function(){
    $("#start").show();
+      $("#startpage").hide();
+});
+
+   $("#restart").click(function(){
+
+
+ $("#leftwall").hide();
+  $("#leftwallleft").hide();
+$("#leftwallright").hide();
+$("#leftwallmiddle").hide();
+
+  $("#rightwall").hide();
+  $("#rightwallleft").hide();
+ $("#rightwallright").hide();
+  $("#rightwallmiddle").hide();
+
+ $("#forwardwall").hide;
+ $("#forwardwallleft").hide();
+  $("#forwardwallright").hide();
+ $("#forwardwallmiddle").hide();
+
+  $("#endpage").hide();
+   $("#start").hide();
+    $("#clue1").hide();
+     $("#clue2").hide();
+      $("#clue3").hide();
+       $("#clue4").hide();
+    $("#start").show();
+});
+
+
 
 
   $("#startzoom").click(function(){
@@ -33,6 +74,7 @@ $("#leftwallmiddle").hide();
    $("#leftwall").show();
       $("#start").hide();
 });
+
    
   $("#startright").click(function(){
    $("#rightwall").show();
@@ -44,10 +86,6 @@ $("#startforward").click(function(){
    $("#start").hide();
 });
 
-$("#startzoom").click(function(){
-   $("#forwardwall").show();
-   $("#start").hide();
-});
 
 
 
@@ -57,10 +95,23 @@ $("#leftleft").click(function(){
    $("#leftwall").hide();
 });
 
+
+$("#leftleftright").click(function(){
+   $("#leftwallleft").hide();
+   $("#leftwall").show();
+});
+
+
 $("#leftright").click(function(){
    $("#leftwallright").show();
    $("#leftwall").hide();
 });
+
+$("#leftrightleft").click(function(){
+   $("#leftwallright").hide();
+   $("#leftwall").show();
+});
+
 
 $("#leftback").click(function(){
    $("#start").show();
@@ -69,6 +120,7 @@ $("#leftback").click(function(){
 
 $("#leftzoommiddle").click(function(){
    $("#leftwall").hide();
+     $("#clue4").hide();
 });
 
 
