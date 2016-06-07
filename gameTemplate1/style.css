@@ -322,6 +322,8 @@ top: 650px;;
     position: absolute;
     height: 1224px;
     width: 1632px;
+
+}
 }
 
 #clue2back{
@@ -338,6 +340,7 @@ top: 650px;;
     position: absolute;
     height: 1224px;
     width: 1632px;
+        transform: rotate(90deg);
 }
 
 #clue3back{
@@ -346,7 +349,7 @@ height: 50px;
 width: 75px;
 left:800px;
 top: 650px;;
-
+  transform: rotate(270deg);
 }
 
 
@@ -377,7 +380,7 @@ top: 650px;;
 height:100px;
 width: 300px;
 position: absolute;
-background-color: #0066ff;
+background-color: #3399ff;
 }
 
 
